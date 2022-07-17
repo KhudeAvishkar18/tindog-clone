@@ -1,0 +1,337 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 3% 10%;
+}
+
+/* Navbar */
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 4%;
+}
+
+#navbarSupportedContent {
+    text-align: center;
+}
+
+.nav-item {
+    margin: auto 30px;
+    font-size: 1.2rem;
+}
+
+.nav-item a:hover {
+    color: white;
+}
+
+/* Heading */
+
+#heading {
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+}
+
+.download {
+    margin: 20px 10px 0 0;
+}
+
+.iphone {
+    width: 50%;
+    transform: rotate(20deg);
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+/* Features */
+
+#features {
+    width: 100%;
+    margin-top: 0;
+    padding: 8% 0px;
+    background-color: white;
+}
+
+.features {
+    margin: 20px auto;
+}
+
+.feature {
+    text-align: center;
+    padding: 0 70px 0;
+}
+
+.icons {
+    height: 50px;
+    width: 50px;
+    color: #fd5871;
+    transform: scale(3.5);
+    margin: 15px;
+}
+
+.icons:hover {
+    color: #ff1236;
+}
+
+.feature h3 {
+    font-weight: bold;
+}
+
+.feature p {
+    color: gray;
+}
+
+/* Carousels */
+
+#testimonials {
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.carousel {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 4%;
+    color: white;
+}
+
+.carousel h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0% 5%;
+}
+
+.dog {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.lady {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+/* Clients */
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 8%;
+}
+
+.clients {
+    height: 40px;
+    margin: 20px;
+}
+
+/* Pricing */
+
+.pricing {
+    padding: 8% 3% 6%;
+    text-align: center;
+
+}
+
+#pricing h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#pricing p {
+    color: gray;
+}
+
+.priceButton {
+    width: 90%;
+}
+
+.card-header h3 {
+    font-weight: bold;
+}
+
+/* Call to Action */
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+.cta {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 10%;
+}
+
+.ctaButtons {
+    margin: 20px 10px;
+}
+
+.cta h3 {
+    font-size: 3.5rem;
+    color: white;
+    font-weight: bolder;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    margin-bottom: 0;
+    color: gray;
+
+}
+
+.footer {
+    width: 50%;
+    /* margin: 80px auto; */
+    margin: 6% auto;
+}
+
+.contacts {
+    text-decoration: none;
+}
+
+.socialMedia {
+    height: 20px;
+    width: 20px;
+    margin: 15px;
+}
+
+#footer p {
+    margin-bottom: 0;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 992px) {
+
+    #heading {
+        font-size: 3rem;
+    }
+
+    #features {
+        position: static;
+    }
+
+    .iphone {
+        transform: rotate(0deg);
+        width: 40%;
+    }
+
+    .container-fluid {
+        text-align: center;
+    }
+
+    .carousel h2 {
+        font-size: 2.7rem;
+    }
+
+    .navbar-brand {
+        font-size: 2rem;
+    }
+
+    .cta {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width:720px) {
+    .carousel h2 {
+        font-size: 2rem;
+    }
+
+
+
+    .clients {
+        height: 30px;
+        margin: 10px;
+    }
+
+    .cta h3 {
+        font-size: 2.5rem;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width:500px) {
+    .dog {
+        display: block;
+        margin: 20px auto;
+    }
+
+    .lady {
+        display: block;
+        margin: 20px auto;
+    }
+
+    .clients {
+        height: 25px;
+        margin: 5px;
+    }
+
+    .container-fluid {
+        padding-top: 25px;
+    }
+
+    .carousel {
+        padding: 50px 0px;
+    }
+
+
+}
+
+@media only screen and (max-width:430px) {
+    #heading {
+        font-size: 2rem;
+    }
+
+    .carousel h2 {
+        font-size: 1.2rem;
+    }
+
+    .footer {
+        width: 80%;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .download {
+        height: 50px;
+        width: 150px;
+    }
+
+    .ctaButtons {
+        height: 50px;
+        width: 150px;
+        margin: 2% auto;
+    }
+
+
+
+}
